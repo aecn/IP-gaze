@@ -99,7 +99,8 @@ justify-content: center;
 #part2b h4 {
   padding: 50px;
   line-height: 3.5vw;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
+  font-family: 'Abel', sans-serif;
 }
 
 #part2b img {
@@ -141,6 +142,8 @@ justify-content: center;
 
 #part4 h4 {
   color: white;
+  font-family: 'Abel', sans-serif;
+  font-size: 1.5vw;
 }
 
 #part5 {
