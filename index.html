@@ -13,6 +13,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <!--js-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -42,7 +44,7 @@
       </div>
     </div>
 
-    <div id="part1">
+<div id="part1">
       <div id="heading1">
         <video id="video" preload="" autoplay="" muted="" playsinline="" loop="">
           <source src="gazevid.mp4" type="video/mp4">
@@ -53,9 +55,9 @@
     </div>
 
     <div id="part2">
-      <h2>About Us</h2>
+      <div data-aos="fade-up"><h2>About Us</h2></div>
       <div id="part2b">
-        <h4>Gaze was founded in 2140 by our CEO Diana Percy. With New Earth now accessible to
+        <div data-aos="fade-up"><h4>Gaze was founded in 2140 by our CEO Diana Percy. With New Earth now accessible to
           everyone thanks to international government distribution, Diana saw this transition
           as an opportunity for all people to start over. New Earth was a chance for a new life,
           and it held far more potential than the real world could ever offer. From her home,
@@ -63,39 +65,43 @@
           passion project our company aims to improve every single day. With these two components,
           you are able to become who you were meant to be. You get to choose how people see you.
           You get to live the life you always wanted. Because with our help, life is limitless.
-        </h4>
-        <img src="GazeCEO.png" width="500px" height="375px">
+        </h4></div>
+        <div data-aos="fade-up"><img src="GazeCEO.png" width="500px" height="375px"></div>
       </div>
     </div>
 
     <div id="part3">
-      <h2>Our Products</h2>
-      <img src="diagram1.png" width="500px" height="625px">
-      <img src="diagram2.png" width="500px" height="789px">
-      <img src="diagram3.png">
+      <div data-aos="fade-up"><h2>Our Products</h2></div>
+      <div data-aos="fade-up"><img src="diagram1.png" width="500px" height="625px">
+      <img src="diagram2.png" width="500px" height="789px"></div>
+      <div data-aos="fade-up"><img src="diagram3.png"></div>
     </div>
 
     <div id="part4">
-      <h2>Description</h2>
-      <h4>SYRINGES: Our syringes are very adaptable - you are able to inject as many types of microchips into yourself as you want
+      <div data-aos="fade-up"><h2>Description</h2></div>
+      <div data-aos="fade-up"><h4>SYRINGES: Our syringes are very adaptable - you are able to inject as many types of microchips into yourself as you want
         using only one syringe! We are always coming out with new models monthly, so be sure to purchase the latest model
-        if you want an easier injection.</h4>
-      <h4>MICROCHIPS: The microchips shown above are some of our most popular, best-selling models. In addititon to these, there are many more options available
+        if you want an easier injection.</h4></div>
+      <div data-aos="fade-up"><h4>MICROCHIPS: The microchips shown above are some of our most popular, best-selling models. In addititon to these, there are many more options available
         in our stores. This is how a microchip works: Each microchip contains a special attribute. For example, the eye microchip has many varieties: blue, green, purple, white, etc.
-        If you purchase the purple one and inject yourself with it, you now have purple irises.</h4>
+        If you purchase the purple one and inject yourself with it, you now have purple irises.</h4></div>
     </div>
 
     <div id="part5">
-      <h2>Press</h2>
-      <img src="ad1.png" width="800px" height="600px">
+      <div data-aos="fade-up"><h2>Press</h2></div>
+      <div data-aos="fade-up"><img src="ad1.png" width="800px" height="600px"></div>
     </div>
 
     <div id="ad2">
-      <img src="press.png" width="800px" height="600px">
+      <div data-aos="fade-up"><img src="press.png" width="800px" height="600px"></div>
     </div>
 
   </div>
 
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html>
