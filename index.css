@@ -131,10 +131,16 @@ justify-content: center;
 #part4 {
   text-align: center;
   padding: 50px;
+  background-color: black;
 }
 
 #part4 h2 {
     font-size: 2.5vw;
+    color: white;
+}
+
+#part4 h4 {
+  color: white;
 }
 
 #part5 {
